@@ -1,13 +1,7 @@
+#include "function_pointers.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "function_pointers.h"
-/**
- * int_index - return index place if comparison is true, else return -1
- * @array: Array
- * @size: Size of elements in array
- * @cmp: Pointer to function
- * Return: 0
- */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 int i;
